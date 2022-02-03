@@ -1,0 +1,1 @@
+This is my first test-and-play project on HTML and CSS. I'm cürrently studying them from FreeCodeCamp and TOP. I will update and upgrade this site on my own preference, although suggestions are welcome. Thank you for investigating :3
