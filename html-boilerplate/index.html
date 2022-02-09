@@ -1,12 +1,63 @@
+<style>
+    h1{
+        text-align: center;
+        font-size: 60px;
+    }
+    p {
+        text-align: center;
+        font-size:45px
+    }
+    div {
+        margin: auto;
+        background-color: hsl(0, 100%, 50%);
+        width: 50%;
+        height: 50%;
+    }
+    .rainbow-box:hover {
+        animation-name: rainbow;
+        animation-duration: 7s;
+    }
+    @keyframes rainbow {
+        0% {
+            background-color: hsl(0, 100%, 50%)d;
+        }
+        12% {
+            background-color: hsl(45, 100%, 50%);
+        }
+        24% {
+            background-color: hsl(90, 100%, 50%);
+        }
+        36% {
+            background-color: hsl(135, 100%, 50%);
+        }
+        48% {
+            background-color: hsl(180, 100%, 50%);
+        }
+        64% {
+            background-color: hsl(225, 100%, 50%);
+        }
+        76% {
+            background-color: hsl(270, 100%, 50%);
+        }
+        88% {
+            background-color: hsl(315, 100%, 50%);
+        }
+        100% {
+            background-color: hsl(0, 100%, 50%);
+        }
+    }
+</style>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Amazing Box</title>
 </head>
 <body>
-    <h1>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam rhoncus semper dolor, a vulputate purus mollis a. Vivamus at congue lectus, quis fringilla mi. Aenean tempus, purus sit amet semper ultricies, urna leo posuere tortor, ac lacinia enim felis et ante. Duis porta nulla sit amet lectus gravida, id elementum augue aliquet. Quisque orci nulla, gravida ac gravida et, suscipit quis erat. Nam mi ex, elementum eget sapien vitae, ultricies tempus nulla. Praesent posuere nunc in sapien bibendum, iaculis bibendum dolor eleifend. Pellentesque ac molestie mauris, vel pretium felis. Etiam id leo vulputate, tincidunt nunc at, accumsan dui. Aliquam vulputate, tortor ac ornare vestibulum, turpis mauris vestibulum elit, nec scelerisque ante neque at mauris. Quisque eu sapien nec arcu dictum elementum quis sit amet diam. Sed tincidunt aliquet enim, quis semper nisi consectetur tincidunt. </h1>
+    <h1>Rainbow Box!!!</h1>
+    <p>Coolest rainbox bow I've ever seen!</p>
+    <div class="rainbow-box"></div>
 </body>
 </html>
