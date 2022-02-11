@@ -7,11 +7,15 @@
         text-align: center;
         font-size:46px
     }
+    .old {
+        text-decoration: line-through;
+    }
     div {
         margin: auto;
         background-color: hsl(0, 100%, 50%);
         width: 50%;
         height: 50%;
+        border-radius: 50%;
     }
     .rainbow-box:hover {
         animation-name: rainbow;
@@ -56,8 +60,8 @@
     <title>Amazing Box</title>
 </head>
 <body>
-    <h1>Rainbow Box!!!</h1>
-    <p>Coolest rainbox bow I've ever seen!</p>
+    <h1>Rainbow <span class="old">Box</span> Opal !!!</h1>
+    <p>Coolest rainbow <span class="old">box</span> opal I've ever seen!</p>
     <div class="rainbow-box"></div>
 </body>
 </html>
